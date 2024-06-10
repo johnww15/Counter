@@ -16,6 +16,10 @@ function App() {
     setCount(0);
   };
 
+  const HandleSwapButtonClicked = () => {
+    setCount(count * -1);
+  };
+
   return (
     <>
       <h1>Counter Application</h1>
@@ -23,7 +27,7 @@ function App() {
       <button onClick={HandleIncreaseButtonClicked}>Increase</button>
       <button onClick={HandleDecreaseButtonClicked}>Decrease</button>
       <button onClick={HandleResetButtonClicked}>Reset</button>
-      <button>-/+</button>
+      <button onClick={HandleSwapButtonClicked}>-/+</button>
     </>
   );
 }
