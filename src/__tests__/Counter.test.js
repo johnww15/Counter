@@ -22,4 +22,11 @@ describe("Counter Component", () => {
     const countValue = screen.getByTestId("count").textContent;
     expect(countValue).toBe("1");
   });
+
+  test("decreses count by 1 when Decrease button is clicked", () => {
+    const decreaseButton = screen.getByText("Decrease");
+    fireEvent.click(decreaseButton);
+    const countValue = screen.getByTestId("count").textContent;
+    expect(countValue).toBe("-1");
+  });
 });

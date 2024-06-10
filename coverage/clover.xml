@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718028093743" clover="3.2.0">
-  <project timestamp="1718028093743" name="All files">
-    <metrics statements="11" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3" elements="17" coveredelements="11" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
+<coverage generated="1718028302533" clover="3.2.0">
+  <project timestamp="1718028302533" name="All files">
+    <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4" elements="17" coveredelements="13" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="Counter.jsx" path="/Users/jonathan/Desktop/Projects/counter/counter/src/Counter.jsx">
-      <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
+      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="14" count="3" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
       <line num="15" count="0" type="stmt"/>
-      <line num="18" count="3" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
       <line num="19" count="0" type="stmt"/>
-      <line num="22" count="3" type="stmt"/>
+      <line num="22" count="5" type="stmt"/>
     </file>
     <file name="Sum.jsx" path="/Users/jonathan/Desktop/Projects/counter/counter/src/Sum.jsx">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
