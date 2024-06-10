@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718028760171" clover="3.2.0">
-  <project timestamp="1718028760171" name="All files">
+<coverage generated="1718029122500" clover="3.2.0">
+  <project timestamp="1718029122500" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="17" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="Counter.jsx" path="/Users/jonathan/Desktop/Projects/counter/counter/src/Counter.jsx">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
