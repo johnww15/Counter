@@ -22,7 +22,7 @@ export default function Counter({ initialCount }) {
   return (
     <>
       <h2>
-        Count: <h3>{count}</h3>
+        Count: <h3 data-testid="count">{count}</h3>
       </h2>
       <div>
         <button onClick={HandleIncreaseButtonClicked}>Increase</button>
