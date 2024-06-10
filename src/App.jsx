@@ -12,13 +12,17 @@ function App() {
     setCount(count - 1);
   };
 
+  const HandleResetButtonClicked = () => {
+    setCount(0);
+  };
+
   return (
     <>
       <h1>Counter Application</h1>
       <h2>Current Count: {count}</h2>
       <button onClick={HandleIncreaseButtonClicked}>Increase</button>
       <button onClick={HandleDecreaseButtonClicked}>Decrease</button>
-      <button>Reset</button>
+      <button onClick={HandleResetButtonClicked}>Reset</button>
       <button>-/+</button>
     </>
   );
